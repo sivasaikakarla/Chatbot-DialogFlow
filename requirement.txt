@@ -1,0 +1,5 @@
+mysql-connector-python
+fastapi[all]
+
+in backend: ngrok http 8000
+python -m uvicorn main:app --reload
